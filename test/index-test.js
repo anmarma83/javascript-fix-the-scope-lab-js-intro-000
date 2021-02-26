@@ -1,5 +1,5 @@
 /*global describe, it */
-var animal ='Cat';
+var animal ='cat';
 describe('Fix the Scope', function() {
   describe('myAnimal()', function() {
     it('returns the animal variable', () => {
