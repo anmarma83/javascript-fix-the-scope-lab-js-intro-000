@@ -58,11 +58,11 @@ function add2(n){
   return parseInt(n) +2;
 }
 function funkyFunction(){
-
-    return function inner(theFunk) {
-      return theFunk;
+    
+    return function inner() {
+      return "FUNKY!";
     }
 }
 //var theFunk = funkyFunction();
 var theFunk = funkyFunction();
-theFunk("FUNKY!");
+theFunk();
