@@ -64,4 +64,4 @@ function funkyFunction(){
       return "hello" + theFunk;
     }
 }
-var theFunk = funkyFunction();
+var theFunk = funkyFunction("FUNKY!");
