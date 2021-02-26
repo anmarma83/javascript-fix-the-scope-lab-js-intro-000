@@ -59,7 +59,7 @@ function add2(n){
 }
 function funkyFunction(){
 
-    return function (theFunk) {
+    return function inner(theFunk) {
       return "hello" + theFunk;
     }
 }
