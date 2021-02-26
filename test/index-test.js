@@ -60,7 +60,7 @@ function add2(n){
   return "NaN";
 }
 function funkyFunction(){
-
+  return "FUNKY!";
     return function inner() {
       return "FUNKY!";
     }
