@@ -65,4 +65,4 @@ function funkyFunction(){
     }
 }
 //var theFunk = funkyFunction();
-var theFunk = [function funkyFunction()];
+var theFunk = [function funkyFunction];
