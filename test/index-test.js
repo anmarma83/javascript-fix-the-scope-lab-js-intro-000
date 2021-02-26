@@ -52,7 +52,6 @@ function myAnimal(){
   return animal;
 }
 function yourAnimal(){
-  var animal = animal;
   return animal;
 }
 function add2(n){
