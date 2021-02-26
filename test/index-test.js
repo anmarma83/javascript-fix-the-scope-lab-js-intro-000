@@ -64,5 +64,5 @@ function FUNKY(){
       return example;
     }
 }
-var theFunk = funkyFunction();
+var theFunk = FUNKY();
 theFunk();
