@@ -56,10 +56,9 @@ function yourAnimal(){
   return animal;
 }
 function add2(n){
-
   return parseInt(n) +2;
 }
-function funkyFunction(){
+function FUNKY(){
   var example = "FUNK!";
     return function inner(example) {
       return example;
