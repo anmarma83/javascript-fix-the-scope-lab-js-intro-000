@@ -59,7 +59,7 @@ function add2(n){
   return parseInt(n) +2;
 }
 function funkyFunction(){
-  var example = "FUNK!";
+  var theFunk = "FUNKY!";
     return function inner(example) {
       return "hello" + example;
     }
