@@ -55,7 +55,9 @@ function yourAnimal(){
   return animal;
 }
 function add2(n){
-  return parseInt(n) +2;
+  if(typeof n === 'number')
+    return parseInt(n) +2;
+  return "NaN";
 }
 function funkyFunction(){
 
