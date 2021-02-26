@@ -58,10 +58,10 @@ function yourAnimal(){
 function add2(n){
   return parseInt(n) +2;
 }
-function FUNKY(){
+function funkyFunction(){
   var example = "FUNK!";
     return function inner(example) {
       return "hello" + example;
     }
 }
-var theFunk = FUNKY();
+var theFunk = funkyFunction();
