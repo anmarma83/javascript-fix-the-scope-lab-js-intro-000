@@ -60,8 +60,8 @@ function add2(n){
 }
 function funkyFunction(){
   var theFunk = "FUNKY!";
-    return function inner(example) {
-      return "hello" + example;
+    return function inner(theFunk) {
+      return "hello" + theFunk;
     }
 }
 var theFunk = funkyFunction();
