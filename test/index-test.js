@@ -59,12 +59,11 @@ function add2(n){
     return parseInt(n) +2;
   return "NaN";
 }
-function funkyFunction(){
-  var my = "FUNKY!";
-    return function inner() {
-      return my;
-    }
-}
-//var theFunk = funkyFunction();
-var theFunk = funkyFunction();
-theFunk();
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
+ var funkyFunction = function() {
+
+// We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
+var theFunk = funkyFunction
+var theFunk = funkyFunction()()
